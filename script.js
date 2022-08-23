@@ -34,7 +34,7 @@ function show(data) {
 		</tr>`;
 	
 	// Loop to access all rows
-	for (let r of data.list) {
+	for (let r of data.data) {
 		tab += `<tr>
 	<td>${r.name} </td>
 	<td>${r.office}</td>
